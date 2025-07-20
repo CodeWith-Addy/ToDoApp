@@ -17,6 +17,8 @@ This project was created as a hands-on learning experience to explore React fund
 
 ## 🛠️ Getting Started
 
+Demo: https://planmyday-app.netlify.app/
+
 ### Prerequisites
 
 - Node.js (v16 or later)
@@ -36,3 +38,4 @@ npm install
 
 # 4. Start the development server
 npm run dev
+
