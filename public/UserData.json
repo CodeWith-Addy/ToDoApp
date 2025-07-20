@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Aadarsh Singh",
+    "email": "aadarsh.singh@example.com",
+    "role": "Frontend Developer",
+    "location": "Bangalore, India",
+    "avatar": "https://randomuser.me/api/portraits/men/10.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Priya Verma",
+    "email": "priya.verma@example.com",
+    "role": "UI/UX Designer",
+    "location": "Mumbai, India",
+    "avatar": "https://randomuser.me/api/portraits/women/24.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Karan Mehta",
+    "email": "karan.mehta@example.com",
+    "role": "Backend Developer",
+    "location": "Hyderabad, India",
+    "avatar": "https://randomuser.me/api/portraits/men/31.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sneha Patel",
+    "email": "sneha.patel@example.com",
+    "role": "Product Manager",
+    "location": "Ahmedabad, India",
+    "avatar": "https://randomuser.me/api/portraits/women/49.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rohit Sharma",
+    "email": "rohit.sharma@example.com",
+    "role": "DevOps Engineer",
+    "location": "Chennai, India",
+    "avatar": "https://randomuser.me/api/portraits/men/45.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Nisha Rani",
+    "email": "nisha.rani@example.com",
+    "role": "QA Engineer",
+    "location": "Pune, India",
+    "avatar": "https://randomuser.me/api/portraits/women/62.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Aman Tiwari",
+    "email": "aman.tiwari@example.com",
+    "role": "Full Stack Developer",
+    "location": "Noida, India",
+    "avatar": "https://randomuser.me/api/portraits/men/63.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Meera Nair",
+    "email": "meera.nair@example.com",
+    "role": "Business Analyst",
+    "location": "Kochi, India",
+    "avatar": "https://randomuser.me/api/portraits/women/70.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Siddharth Jain",
+    "email": "siddharth.jain@example.com",
+    "role": "AI Engineer",
+    "location": "Indore, India",
+    "avatar": "https://randomuser.me/api/portraits/men/80.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Ritika Das",
+    "email": "ritika.das@example.com",
+    "role": "Cloud Architect",
+    "location": "Kolkata, India",
+    "avatar": "https://randomuser.me/api/portraits/women/88.jpg"
+  }
+]

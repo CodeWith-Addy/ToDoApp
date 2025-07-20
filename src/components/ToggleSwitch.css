@@ -1,0 +1,74 @@
+/* Center the toggle on the page */
+.toggle-switch-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+/* Toggle Switch Styles */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  box-shadow: 0 4px 16px rgba(79,140,255,0.12);
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(90deg, #e0e7ff 0%, #b6ccfe 100%);
+  border-radius: 34px;
+  transition: background 0.3s;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.10);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background: linear-gradient(135deg, #fff 60%, #dbeafe 100%);
+  border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.15);
+}
+
+.toggle-switch input:checked + .slider {
+  background: linear-gradient(90deg, #4f8cff 0%, #2563eb 100%);
+}
+
+.toggle-switch input:checked + .slider:before {
+  transform: translateX(26px);
+  background: linear-gradient(135deg, #fff 60%, #4f8cff 100%);
+}
+
+.slider:after {
+  color: #888;
+  position: absolute;
+  right: 10px;
+  top: 7px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.toggle-switch input:checked + .slider:after {
+  color: #fff;
+  left: 12px;
+  right: auto;
+}
+
+.dark{
+    background-color: #000;
+}
